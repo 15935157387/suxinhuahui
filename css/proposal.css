@@ -1,0 +1,144 @@
+/*建议留言内容开始*/
+h1{
+    width: 100%;
+    height: 120px;
+    background: #f1f1f1;
+    margin-top: 79px;
+    color: #f67a82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+}
+.bigBox{
+    width: 100%;
+    padding: 30px 0;
+    background: #f2f2f2;
+    border-top: 1px solid #f0f2f5;
+}
+.contentBox{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.contentLeftBox{
+    width: 68%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.contentLeftBox ul{
+    width: 100%;
+    height: auto;
+}
+.contentLeftBox li{
+    /*height: 75px;*/
+    border-bottom: 1px solid #f0f2f5;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.contentLeftBox li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contentLeftBox li .iconfont {
+    font-size: 36px;
+    color: #a3afb7;
+    margin-right: 10px;
+    float: left;
+}
+.contentLeftBox li .leaveWord{
+    width: 688px;
+    float: right;
+}
+.leaveWord h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #37474f;
+    margin-bottom: 5px;
+    float: left;
+}
+.leaveWord span{
+    color: #a3afb7;
+    font-size: 12px;
+    float: right;
+}
+.leaveWord p{
+    width: 100%;
+    font-size: 14px;
+    color: #76838f;
+    float: left;
+    margin-bottom: 11px;
+}
+.leaveWord .reply{
+    width: 648px;
+    font-size: 14px;
+    color: #2a333c;
+    float: left;
+    padding: 22px;
+    margin-bottom: 10px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+}
+.contentRightBox{
+    width: 30%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contentRightBox .groupItem{
+    border: 1px solid #e4eaec;
+    display: block;
+    width: 291px;
+    height: 34px;
+    font-size: 14px;
+    color: #76838f;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 6px 15px;
+}
+.contentRightBox .proposal{
+    border: 1px solid #e4eaec;
+    display: block;
+    width: 291px;
+    height: 108px;
+    font-size: 14px;
+    color: #76838f;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 6px 15px;
+}
+.contentRightBox .validate{
+    width: 181px;
+    float: left;
+}
+.contentRightBox span{
+    display: block;
+    width: 110px;
+    height: 34px;
+    padding: 7px 15px;
+    float: right;
+    background: #f3f7f9;
+    box-sizing: border-box;
+}
+.contentRightBox .button{
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+    color: #fff;
+    margin-bottom: 0;
+}
+.contentRightBox button:hover{
+    background-color: #89bceb;
+    border-color: #89bceb;
+}
+/*建议留言内容结束*/
