@@ -117,6 +117,7 @@ h1{
     box-sizing: border-box;
     margin-bottom: 20px;
     padding: 6px 15px;
+    resize: none;
 }
 .contentRightBox .validate{
     width: 181px;
